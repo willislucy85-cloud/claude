@@ -1,0 +1,13 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "payment-cryptography:GenerateCardValidationData",
+        "payment-cryptography:VerifyCardValidationData"
+      ],
+      "Resource": "arn:aws:payment-cryptography:us-east-2:111122223333:key/r52o3wbqxyf6qlqr"
+    }
+  ]
+}
